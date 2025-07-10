@@ -139,7 +139,7 @@ public class MazeUI extends JFrame {
             @Override
             protected void done() {
                 statusLabel.setText("Testes em lote concluídos! " + numTests + " labirintos testados.");
-                updateButtonStates(State.SOLVED);
+                updateButtonStates(MazeUI.State.SOLVED);
                 JOptionPane.showMessageDialog(MazeUI.this, "Testes em lote finalizados! Clique em 'Salvar Resultados' para obter o arquivo.", "Concluído", JOptionPane.INFORMATION_MESSAGE);
             }
         }.execute();

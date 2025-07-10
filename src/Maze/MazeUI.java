@@ -265,7 +265,7 @@ public class MazeUI extends JFrame {
             if (currentSolver != null) {
                 g.setColor(Color.GRAY);
                 for (Point p : currentSolver.getPath()) g.fillRect(p.y * cellSize, p.x * cellSize, cellSize, cellSize);
-                g.setColor(Color.YELLOW);
+                g.setColor(Color.RED);
                 for (Point p : currentSolver.getSolutionPath()) g.fillRect(p.y * cellSize, p.x * cellSize, cellSize, cellSize);
             }
             g.setColor(Color.GREEN);

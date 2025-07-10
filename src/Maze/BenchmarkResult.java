@@ -1,9 +1,5 @@
 package Maze;
 
-/**
- * Uma classe de dados simples para armazenar o resultado
- * de um benchmark para um único labirinto e algoritmo.
- */
 public class BenchmarkResult {
     private String mazeName;
     private String algorithmName;
